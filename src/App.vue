@@ -8,12 +8,12 @@ Creare un secondo componente AppHero, che visualizza un jumbotron. -->
 <script>
 // <!-- import -->
 import AppTitle from "./components/AppTitle.vue";
-
+import AppHero from "./components/AppHero.vue";
   export default {
     data() {
         return {};
     },
-    components: { AppTitle }
+    components: { AppTitle, AppHero }
 }
 </script>
 
@@ -21,6 +21,7 @@ import AppTitle from "./components/AppTitle.vue";
 <template>
   <section>
     <AppTitle />
+    <AppHero />
   </section>
 </template>
 
